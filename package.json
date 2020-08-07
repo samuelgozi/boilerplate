@@ -1,0 +1,9 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for JS projects ",
+  "main": "src/index.js",
+  "author": "Samuel Elgozi",
+  "license": "MIT",
+  "private": true
+}

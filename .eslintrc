@@ -1,0 +1,24 @@
+{
+	"env": {
+		"es6": true,
+		"browser": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2017,
+		"sourceType": "module"
+	},
+	"parser": "babel-eslint",
+	"extends": ["eslint:recommended", "prettier"],
+	"rules": {
+		"no-console": ["error", { "allow": ["error"] }],
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single", { "avoidEscape": true }],
+		"semi": ["error", "always"],
+		"no-mixed-spaces-and-tabs": ["warn", "smart-tabs"],
+		"prefer-rest-params": "warn",
+		"prefer-const": "warn",
+		"prettier/prettier": "error"
+	},
+	"plugins": ["prettier"]
+}
