@@ -1,9 +1,17 @@
 {
-  "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for JS projects ",
-  "main": "src/index.js",
-  "author": "Samuel Elgozi",
-  "license": "MIT",
-  "private": true
+	"name": "samuels-rollup-template",
+	"version": "1.0.0",
+	"description": "Boilerplate rollup template for general use",
+	"main": "src/main.js",
+	"author": "Samuel Elgozi",
+	"license": "unlicensed",
+	"private": true,
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w "
+	},
+	"devDependencies": {
+		"rollup": "^2.52.2",
+		"rollup-plugin-terser": "^7.0.2"
+	}
 }
